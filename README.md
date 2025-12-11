@@ -42,16 +42,15 @@ A modern, responsive e-commerce and review website built using **React + Vite** 
 | Week | Goal / Target | Status |
 |------|---------------|--------|
 | 1️⃣ Week 1 | Complete **basic project structure** (frontend + JSON dummy data) | ✅ |
-| 2️⃣ Week 2 | Build **Header & Footer components**, navigation links | ⬜ |
-| 3️⃣ Week 3 | Implement **Categories section** with icons & CSS styling | ⬜ |
-| 4️⃣ Week 4 | Implement **Reviews section** with dummy data & rating stars | ⬜ |
-| 5️⃣ Week 5 | Add **Search bar functionality** and filter by category | ⬜ |
-| 6️⃣ Week 6 | Connect **frontend with Django backend API** (upcoming) | ⬜ |
-| 7️⃣ Week 7 | Implement **User Authentication** (signup/login) | ⬜ |
-| 8️⃣ Week 8 | Add **Admin dashboard** for managing products & reviews | ⬜ |
-| 9️⃣ Week 9 | Add **Dynamic rating aggregation & product filtering** | ⬜ |
-| 🔟 Week 10 | **Testing, Deployment, and Optimization** | ⬜ |
-
+| 2️⃣ Week 2 |  ⬜ |
+| 3️⃣ Week 3 | ------------------------------------------------------------------| ⬜ |
+| 4️⃣ Week 4 | ------------------------------------------------------------------| ⬜ |
+| 5️⃣ Week 5 | ------------------------------------------------------------------| ⬜ |
+| 6️⃣ Week 6 | ------------------------------------------------------------------| ⬜ |
+| 7️⃣ Week 7 | ------------------------------------------------------------------| ⬜ |
+| 8️⃣ Week 8 | ------------------------------------------------------------------| ⬜ |
+| 9️⃣ Week 9 | ------------------------------------------------------------------| ⬜ |
+| 🔟 Week 10| ------------------------------------------------------------------| ⬜ |
 **Legend:**  
 - ✅ Completed  
 - ⬜ Pending  
