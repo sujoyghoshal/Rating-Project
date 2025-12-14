@@ -1,0 +1,48 @@
+{
+  "categories": [
+    { "name": "Laptop", "icon": "💻" },
+    { "name": "Mobiles", "icon": "📱" },
+    { "name": "Electronics", "icon": "🔌" },
+    { "name": "Camera", "icon": "📷" },
+    { "name": "Smartwatch", "icon": "⌚" },
+    { "name": "Headphones", "icon": "🎧" }
+  ],
+  "reviews": [
+    {
+      "name": "Rahul Sen",
+      "rating": 5,
+      "review": "Bought a MacBook Air M2, amazing performance and fast delivery!",
+      "company": "Apple Store",
+      "companySite": "apple.com",
+      "userImg": "https://i.pravatar.cc/50?img=15",
+      "companyImg": "https://i.pravatar.cc/50?img=10"
+    },
+    {
+      "name": "Priya Sharma",
+      "rating": 4,
+      "review": "Samsung S24 is awesome but delivery delay by 2 days.",
+      "company": "Samsung India",
+      "companySite": "samsung.com",
+      "userImg": "https://i.pravatar.cc/50?img=39",
+      "companyImg": "https://i.pravatar.cc/50?img=27"
+    },
+    {
+      "name": "Amit Verma",
+      "rating": 3,
+      "review": "Boat headphones good but not very premium.",
+      "company": "Boat Official",
+      "companySite": "boat-lifestyle.com",
+      "userImg": "https://i.pravatar.cc/50?img=31",
+      "companyImg": "https://i.pravatar.cc/50?img=22"
+    },
+    {
+      "name": "Sneha Dutta",
+      "rating": 5,
+      "review": "HP Victus gaming laptop performance is amazing!",
+      "company": "HP Store",
+      "companySite": "hp.com",
+      "userImg": "https://i.pravatar.cc/50?img=29",
+      "companyImg": "https://i.pravatar.cc/50?img=23"
+    }
+  ]
+}

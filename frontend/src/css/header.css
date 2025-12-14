@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: #111;
+    color: #fff;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  /* Navigation links */
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .signup-btn {
+    padding: 8px 16px;
+    background: #4d79ff;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hamburger Menu */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #111;
+      padding: 10px 20px;
+      display: none;
+      gap: 10px;
+      z-index: 10;
+    }
+  
+    nav.open {
+      display: flex;
+    }
+  
+    nav a {
+      font-size: 14px;
+    }
+  
+    .signup-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 24px;
+    }
+  
+    nav a {
+      font-size: 13px;
+    }
+  
+    .signup-btn {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  

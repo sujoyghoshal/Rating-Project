@@ -1,0 +1,124 @@
+.home-body {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .main-title {
+    font-size: 38px;
+    font-weight: bold;
+  }
+  
+  .sub-title {
+    color: #555;
+  }
+  
+  /* Search container */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    flex-wrap: wrap; /* wraps on small screens */
+  }
+  
+  /* Search input */
+  .search-input {
+    width: 50%;
+    min-width: 200px; /* prevents it from shrinking too much */
+    padding: 12px 50px 12px 20px; /* space for icons */
+    border: 1px solid #aaa;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Search icons container */
+  .search-icons {
+    display: flex;
+    position: absolute;
+    right: 20%; /* adjust relative to input */
+    gap: 10px;
+    align-items: center;
+  }
+  
+  /* Individual icon buttons */
+  .icon-btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .icon-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Search button */
+  .search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d79ff;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .search-btn:hover {
+    background-color: #3b5ed0;
+    transform: scale(1.1);
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 768px) {
+    .search-input {
+      width: 70%;
+    }
+  
+    .search-icons {
+      right: 15%;
+      gap: 8px;
+    }
+  
+    .main-title {
+      font-size: 32px;
+    }
+  
+    .sub-title {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .search-input {
+      width: 90%;
+      font-size: 14px;
+      padding: 10px 45px 10px 15px;
+    }
+  
+    .search-icons {
+      right: 10%;
+      gap: 6px;
+    }
+  
+    .search-btn {
+      width: 35px;
+      height: 35px;
+      font-size: 16px;
+    }
+  
+    .main-title {
+      font-size: 26px;
+    }
+  
+    .sub-title {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,153 @@
+.review-wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .review-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .review-section {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on mobile */
+  }
+  
+  .review-card {
+    width: 320px;
+    background: #fff;
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+    border: 1px solid #e5e5e5;
+    transition: transform 0.3s;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .review-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+  
+  .rating-stars {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #ff9900;
+  }
+  
+  .review-text {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 14px;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .company-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .company-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+  .company-details b {
+    font-size: 14px;
+  }
+  
+  .company-link {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+  }
+  
+  /* Mobile Responsive */
+  @media screen and (max-width: 768px) {
+    .review-card {
+      width: 260px;
+      padding: 15px;
+    }
+  
+    .review-title {
+      font-size: 22px;
+    }
+  
+    .rating-stars {
+      font-size: 16px;
+    }
+  
+    .review-text {
+      font-size: 13px;
+      height: 50px;
+    }
+  
+    .company-img {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .company-details b {
+      font-size: 13px;
+    }
+  
+    .company-link {
+      font-size: 11px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .review-card {
+      width: 220px;
+      padding: 12px;
+    }
+  
+    .review-title {
+      font-size: 20px;
+    }
+  
+    .rating-stars {
+      font-size: 14px;
+    }
+  
+    .review-text {
+      font-size: 12px;
+      height: 45px;
+    }
+  
+    .company-img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .company-details b {
+      font-size: 12px;
+    }
+  
+    .company-link {
+      font-size: 10px;
+    }
+  }
+  
